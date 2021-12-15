@@ -1,3 +1,4 @@
+
 .content{
 	padding: 50px;
 	
@@ -20,6 +21,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	align-items: center;
 	border: #4E6EF2;
 	border-style: solid;
 	width: 800px;
@@ -29,7 +31,7 @@
 }
 .search_input{
 	border: none;
-	width: 600px;
+	width: 780px;
 	height: 35px;
 }
 .sebutton_div{
@@ -56,7 +58,7 @@
 .content_part{
 	width: 900px;
 	margin-top: 20px;
-	border: #000000;
+	border: #AAAAAA;
 	border-width: 2px;
 	border-style: solid;
 }
@@ -70,7 +72,7 @@
 }
 .weather_part{
 	
-	border: #000000;
+	border: #AAAAAA;
 	border-radius: 10px;
 	border-width: 2px;
 	border-style: solid;
@@ -89,7 +91,7 @@
 }
 
 .fortune_part{
-	border: #000000;
+	border: #AAAAAA;
 	border-radius: 10px;
 	border-width: 2px;
 	border-style: solid;
@@ -118,4 +120,11 @@ td{
 	height:30px;
 	padding:10px;
 	text-align: center;
+}
+td a{
+	text-decoration: none;
+	color: #0000FF;
+}
+td a:hover{
+	color: #FF0000;
 }
