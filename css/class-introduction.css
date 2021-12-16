@@ -1,0 +1,85 @@
+.content{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	animation: fadein 5s;
+	-ms-animation:fadein 5s;		/* IE 9 */
+	-moz-animation: fadein 5s;		/* Firefox */
+	-webkit-animation: fadein 5s; 	/* Safari and Chrome */
+	-moz-animation: fadein 5s;		/*Opera*/
+}
+.overview{
+	height: 300px;
+	
+	font-size: 35px;
+	
+	padding-left: 70px;
+	padding-right: 70px;
+	border-color: hotpink;
+	border-style: dashed;
+	border-radius: 10px;
+	border-width: 4px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;;
+}
+.people{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.xym{
+	margin-top: 20px;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+	border-color: hotpink;
+	border-style: dashed;
+	border-radius: 10px;
+	border-width: 3px;
+	
+	font-size: 24px;
+}
+.xym-text{
+	font-size: ;
+}
+.crn{
+	margin-top: 20px;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	
+	border-color: hotpink;
+	border-style: dashed;
+	border-radius: 10px;
+	border-width: 3px;
+	
+	font-size: 24px;
+}
+@keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-ms-keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-webkit-keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-moz-keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}

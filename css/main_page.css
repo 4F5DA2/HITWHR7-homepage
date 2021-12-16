@@ -86,9 +86,6 @@
 	align-items: center;
 	
 }
-.weather_text{
-	margin: 30px;
-}
 
 .fortune_part{
 	border: #AAAAAA;
@@ -127,4 +124,14 @@ td a{
 }
 td a:hover{
 	color: #FF0000;
+}
+.weather-input{
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.weather_text{
+	width: 200px;
 }
