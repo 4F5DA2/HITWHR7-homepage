@@ -15,7 +15,7 @@
 			</div>
 			<div class = "header_content">
 				<div class="badge_text">
-					<div class="badge_text" >
+					<div class="badge_text1" >
 						<p>哈尔滨工业大学（威海）软七网址导航，打造学生使用方便的网址导航</p>
 					</div>
 				</div>
@@ -96,7 +96,14 @@
 			</div>
 			<div class="sidebar">
 				<div class="weather_part">
-					<div class="weather_text" id="weather_page"></div>
+					<iframe id="weather-iframe" width="250" height="90" frameborder="0" scrolling="no" hspace="0" src="https://i.tianqi.com/?c=code&a=getcode&id=7&py=weihai&icon=1"></iframe>
+					<div class="weather-input">
+						如需查询其他地区天气，请像这样输入城市名全拼
+						<div>
+							<input type="text" class="weather_text" placeholder="weihai" id="weather1"/>
+							<button type="button" onclick="change_weather()">查询</button>
+						</div>
+					</div>
 				</div>
 				<div class="fortune_part">
 					<div class="fortune_text">
@@ -109,9 +116,6 @@
 						忌：无所顾忌
 					</div>
 				</div>
-				<script>
-				print_weather();
-				</script>
 			</div>
 		</div>
 	</body>

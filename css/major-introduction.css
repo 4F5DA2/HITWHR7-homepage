@@ -1,11 +1,16 @@
 .content{
 	margin-top: 50px;
 	margin-left: 50px;
-	margin-right: 100px;
+	margin-right: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+	animation: fadein 5s;
+	-ms-animation:fadein 5s;		/* IE 9 */
+	-moz-animation: fadein 5s;		/* Firefox */
+	-webkit-animation: fadein 5s; 	/* Safari and Chrome */
+	-moz-animation: fadein 5s;		/*Opera*/
 }
 .overview{
 	padding: 10px;
@@ -45,4 +50,19 @@
 	border-width: 4px;
 	border-radius: 20px;
 }
-
+@keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-ms-keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-webkit-keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@-moz-keyframes fadein{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}

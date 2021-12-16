@@ -1,12 +1,12 @@
 
-function print_weather(){
-	var city_name = returnCitySN["cname"];
-	if(city_name == "CHINA")
+function change_weather()
+{
+	var obj = document.getElementById("weather1");
+	var cityname = obj.value;
+	if(cityname != null)
 	{
-		document.getElementById("weather_page").innerHTML = "暂时无法获得该地区天气信息，请更换网络后重新查询";
-	}
-	else
-	{
-		document.getElementById("weather_page").innerHTML = "暂时无法获得该地区天气信息，请更换网络后重新查询";
+		obj = document.getElementById("weather-iframe");
+		console.log(obj.src);
+		obj.src = "https://i.tianqi.com/?c=code&a=getcode&id=7&py=" + cityname + "&icon=1";
 	}
 }
